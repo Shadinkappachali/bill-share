@@ -193,14 +193,17 @@ function FormSplitBill({ selectedFriend, onSplitBill }) {
 
       <label>💰 Bill value</label>
       <input
-        type="text"
+        type="Number"
+        min={0}
         value={bill}
         onChange={(e) => setBill(Number(e.target.value))}
       />
 
       <label>🧍‍♀️ Your expense</label>
+
       <input
-        type="text"
+        type="Number"
+        min={0}
         value={paidByUser}
         onChange={(e) =>
           setPaidByUser(
@@ -210,7 +213,7 @@ function FormSplitBill({ selectedFriend, onSplitBill }) {
       />
 
       <label>👫 {selectedFriend.name}'s expense</label>
-      <input type="text" disabled value={paidByFriend} />
+      <input type="Number" disabled value={paidByFriend} />
 
       <label>🤑 Who is paying the bill</label>
       <select
