@@ -1,70 +1,105 @@
-# Getting Started with Create React App
+# Bill Share 🧾💰
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![GitHub Repo stars](https://img.shields.io/github/stars/Shadinkappachali/bill-share?style=social) ![GitHub forks](https://img.shields.io/github/forks/Shadinkappachali/bill-share?style=social) ![GitHub issues](https://img.shields.io/github/issues/Shadinkappachali/bill-share) ![GitHub license](https://img.shields.io/github/license/Shadinkappachali/bill-share)
 
-## Available Scripts
+Welcome to **Bill Share**, a simple React application designed to help you manage shared expenses with friends. This app allows you to add friends, select a friend, and split bills while keeping track of balances. 
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+1. [Features](#features)
+2. [Technologies Used](#technologies-used)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Contributing](#contributing)
+6. [License](#license)
+7. [Contact](#contact)
+8. [Releases](#releases)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features 🌟
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Add Friends**: Easily add friends to your list.
+- **Split Bills**: Select a friend and split expenses with ease.
+- **Track Balances**: Keep track of how much each friend owes or is owed.
+- **User-Friendly Interface**: A clean and simple UI that enhances the user experience.
 
-### `npm test`
+## Technologies Used 🛠️
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This project is built using the following technologies:
 
-### `npm run build`
+- **React**: A JavaScript library for building user interfaces.
+- **Functional Components**: Using functional components for a cleaner codebase.
+- **React Hooks**: Specifically, the `useState` hook for state management.
+- **JavaScript**: The core language for building the app.
+- **Basic State Management Logic**: Simple logic to manage state without the complexity of external libraries.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation 🚀
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To get started with **Bill Share**, follow these steps:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Shadinkappachali/bill-share.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd bill-share
+   ```
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the application:
+   ```bash
+   npm start
+   ```
 
-### `npm run eject`
+## Usage 🖥️
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Once the application is running, you can:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. **Add Friends**: Click on the "Add Friend" button and enter the friend's name.
+2. **Select a Friend**: Choose a friend from the list to manage expenses.
+3. **Split Bills**: Enter the amount and click on "Split Bill" to divide the cost among friends.
+4. **View Balances**: Check the balance for each friend to see who owes what.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Contributing 🤝
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+We welcome contributions! If you would like to contribute to **Bill Share**, please follow these steps:
 
-## Learn More
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
+3. Make your changes and commit them:
+   ```bash
+   git commit -m "Add your message here"
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature/YourFeature
+   ```
+5. Create a pull request.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## License 📄
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-### Code Splitting
+## Contact 📧
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+For any questions or suggestions, feel free to reach out:
 
-### Analyzing the Bundle Size
+- **Author**: Shadinkappachali
+- **Email**: shadinkappachali@example.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Releases 📦
 
-### Making a Progressive Web App
+To download the latest version of **Bill Share**, visit the [Releases section](https://github.com/Shadinkappachali/bill-share/releases). You can download and execute the files available there.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![Release Button](https://img.shields.io/badge/Download%20Releases-Here-blue)
 
-### Advanced Configuration
+For updates and new features, check back often in the Releases section or follow the repository.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to explore the code, make changes, and enjoy managing your shared expenses with friends! Happy sharing!
